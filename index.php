@@ -54,7 +54,9 @@ echo pageHeader($page); ?>
 			<p>For more details, please visit <a class="more" href="http://envisiondo.org/inspiration-2.0">Inspiration 2.0</a></p>
  -->
  
- <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<a class="twitter-timeline" href="https://twitter.com/polskycenter/uchicago-entrepreneurs" data-widget-id="450746195942440960">Tweets from https://twitter.com/polskycenter/uchicago-entrepreneurs</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 <script>
 new TWTR.Widget({
   version: 2,
@@ -95,6 +97,4 @@ new TWTR.Widget({
 		</div>
 	</div>
 </div>
-<?
-echo pageFooter($page);
-?>
+<?php echo pageFooter($page); ?>

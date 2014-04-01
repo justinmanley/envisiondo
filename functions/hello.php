@@ -115,6 +115,8 @@ function pageHeader($page) {
 
 function pageFooter($page) {
 	$page = strtolower($page);
+	$active = 'class="active" ';
+	$about = $inspiration = $conference = $program = $partners = $incubator = $team = $sponsors = $getInvolved = $blog = $internships = $previous = NULL;	
 	$wrapper = "</div>";
 	switch ($page) {
 	    case "about":
@@ -152,27 +154,27 @@ function pageFooter($page) {
 	        break;
 	}
 	$output = '<div class="footer">
-	<div class="sitemap">
-		<ul>
-			<li '.$about.'id="about"><a href="/about">About</a></li>
-			<li '.$program.'id="program"><a href="/program">Our Program</a></li>
-			<li '.$partners.'id="partners"><a href="/partners">Partners</a></li>
-			<li '.$team.'id="team"><a href="/team">Team</a></li>
-			<li '.$previous.'id="previous-team"><a href="/previous-team">Previous Team</a></li>
-			<li '.$getInvolved.'id="get-involved"><a href="/get-involved">Get Involved</a></li>
-			<li '.$internships.'id="internships"><a href="/internships">Internships</a></li>
-<!--			<li '.$blog.'id="envision-bytes"><a href="/blog">Envision Bytes</a></li> -->
-		</ul>
+		<div class="sitemap">
+			<ul>
+				<li '.$about.'id="about"><a href="/about">About</a></li>
+				<li '.$program.'id="program"><a href="/program">Our Program</a></li>
+				<li '.$partners.'id="partners"><a href="/partners">Partners</a></li>
+				<li '.$team.'id="team"><a href="/team">Team</a></li>
+				<li '.$previous.'id="previous-team"><a href="/previous-team">Previous Team</a></li>
+				<li '.$getInvolved.'id="get-involved"><a href="/get-involved">Get Involved</a></li>
+				<li '.$internships.'id="internships"><a href="/internships">Internships</a></li>
+				<!-- <li '.$blog.'id="envision-bytes"><a href="/blog">Envision Bytes</a></li> -->
+			</ul>
+		</div>
+		<div class="sosumi">
+			Copyright &copy; 2011 <a href="/">EnvisionDo</a>. Designed by <a href="http://pieterouwerkerk.com">Pieter Ouwerkerk</a>. All Rights Reserved.
+		</div>
+		<div class="photography">Photo &copy; 2011 <a href="http://darrenleow.com">Darren Leow</a>.</div>
+	'.$wrapper.'
 	</div>
-	<div class="sosumi">
-		Copyright &copy; 2011 <a href="/">EnvisionDo</a>. Designed by <a href="http://pieterouwerkerk.com">Pieter Ouwerkerk</a>. All Rights Reserved.
 	</div>
-	<div class="photography">Photo &copy; 2011 <a href="http://darrenleow.com">Darren Leow</a>.</div>
-'.$wrapper.'
-</div>
-</div>
-</body>
-</html>';
+	</body>
+	</html>';
 	return $output;
 }
 

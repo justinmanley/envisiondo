@@ -2,8 +2,10 @@
 require_once("../functions/hello.php");
 $page = "About";
 $css = '<link rel="stylesheet" type="text/css" href="../css/slider.css" />';
-$js = '	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
+$js = '	<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="../js/jquery.coda-slider-2.0.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
 	<script type="text/javascript">
 			$().ready(function() {
 				$("#coda-slider-1").codaSlider({
