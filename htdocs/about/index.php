@@ -1,4 +1,5 @@
 <?php 
+WHATTUP!?!?!
 require_once("../functions/hello.php");
 $page = "About";
 $css = '<link rel="stylesheet" type="text/css" href="../css/slider.css" />';
