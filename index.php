@@ -8,24 +8,21 @@ $page = "home";
 echo pageTemplate($page, $css, $js);
 echo pageHeader($page); ?>
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=277429145641995";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!--<div class="motto">Developing a new generation of socially-conscious leaders by providing young people <br/> a platform to create impactful changes.</div>-->
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=288054841296469";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>  
 <div class="motto">
 	<b>EnvisionDo</b> is a platform for students to explore innovation and creativity in business. 
 </div>
-	<div class="body">
-
-
+<div class="body">
 
 <div class="content">
-	<!--<div class="photo"></div>-->
-
 	<div class="overlay">
 		Overlay
 	</div>
@@ -34,66 +31,17 @@ echo pageHeader($page); ?>
 			<h3>
 				EnvisionDo on Facebook
 			</h3>
-
-<!--				<ul>
-					<li><a href="http://www.facebook.com/pages/EnvisionDo/127210327348294">Facebook</a></li>
-					<li><a href="http://twitter.com/EnvisionDo">Twitter</a></li>
-					<li><a href="http://envisiondo.org/email">Email</a></li>					
-				</ul>
--->
-
-<div class="fb-like-box" data-href="https://www.facebook.com/EnvisionDo" data-colorscheme="dark" data-width="292" data-show-faces="true" data-border-color="#000" data-stream="false" data-header="false"></div>
-</div>
+            <div class="fb-facepile" data-href="https://www.facebook.com/EnvisionDo" data-width="292" data-height="300" data-max-rows="5" data-colorscheme="dark" data-size="large" data-show-count="true"></div>
+        </div>
 		<div class="featurette middle events">
 			<h3>
-				EnvisionDo on Twitter
+				Chicago Entrepreneurship
 			</h3>
-<!--			<p>
-				Our first inspiration 2.0 seminar with Ms. Brandy Kuentzel will be on 24 February 2011.
-			</p>
-			<p>For more details, please visit <a class="more" href="http://envisiondo.org/inspiration-2.0">Inspiration 2.0</a></p>
- -->
- 
-<a class="twitter-timeline" href="https://twitter.com/polskycenter/uchicago-entrepreneurs" data-widget-id="450746195942440960">Tweets from https://twitter.com/polskycenter/uchicago-entrepreneurs</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 3,
-  interval: 6000,
-  width: 'auto',
-  height: 200,
-  theme: {
-    shell: {
-      background: '#333333',
-      color: '#ffffff'
-    },
-    tweets: {
-      background: '#000000',
-      color: '#ffffff',
-      links: '#bfbfbf'
-    }
-  },
-  features: {
-    scrollbar: true,
-    loop: false,
-    live: true,
-    hashtags: true,
-    timestamp: true,
-    avatars: false,
-    behavior: 'all'
-  }
-}).render().setUser('envisiondo').start();
-</script>
- 
+             <a class="twitter-timeline" href="https://twitter.com/ChicagoCIE" data-widget-id="455494365406695424">Tweets by @ChicagoCIE</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div>
 		<div class="featurette gastro-conference">
-			<h3>Chicago GastroConference</h3>
-
-			<a id="cgc" href="http://www.facebook.com/events/421541387939934/">Chicago Ideas Week</a>
-
+			<h3>Upcoming events</h3>
 		</div>
 	</div>
 </div>
