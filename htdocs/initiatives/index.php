@@ -77,9 +77,6 @@ require_once("../functions/hello.php");
 				<h3>EnvisionDo Conference</h3>
 				<div class="conference" id="envisiondo-conference"></div>-->
 			</div><!-- .main-content -->
-			<div class="sidebar">
-				
-			</div>
 		</div><!-- .initiatives -->		
 	</div><!-- .page -->
 </div><!-- .content -->

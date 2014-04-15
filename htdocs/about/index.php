@@ -34,12 +34,13 @@
 					</p>
 					<p>In order to bring students together with industry leaders, innovators, and changemakers, we bring speakers to campus, host conferences, organize site visits to local startups, and organize workshops.</p>
 					<p>
-						Recently, we hosted Reddit co-founder Alexis Ohanian for a talk on campus, brought students to Groupon and The Plant, and hosted the sell-out Chicago Gastroconference, which brought together students, entreprenurs, and foodies from all over Chicago.  
+						Recently, <a href="../initiatives#alexis-ohanian">we hosted Reddit co-founder Alexis Ohanian for a talk on campus</a>, brought students to visit local businesses <a href="../initiatives#groupon">Groupon</a> and <a href="../initiatives#the-plant">The Plant</a>, and hosted the sell-out <a href="../initiatives#chicago-gastroconference">Chicago Gastroconference</a>, which brought together students, entreprenurs, and foodies from all over Chicago.  
 						<a href="../initiatives">Read more about our initiatives >></a>
 					</p>
 				</div>
 				<div id="sidebar-picture">
 					<img src="../images/events/gastroconference/nalebuff.jpg">
+					<div class="photo-credit">Photo &copy; 2013 The University of Chicago by <a href="http://communications.uchicago.edu/people/rob-kozloff">Bob Kozloff</a>.</div>					
 				</div>						
 			</div>
 		</div>

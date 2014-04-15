@@ -146,11 +146,13 @@ div.body {
     font-size: 125%;
     line-height: 20pt;
 }
-.page #sidebar-picture img {
-    width: 45%;
-    float: left;
+.page #sidebar-picture {
+    width: 45%;    
     padding: 7.5% 2.5%;
-
+    float: left;
+}
+.page #sidebar-picture img {
+    max-width: 100%;
 }
 .wrapper {
     width: 1140px;
@@ -508,6 +510,10 @@ body.timeline {
     background: rgba(0,0,0,0.5);
     border-radius: 3px;
     padding: 3px;
+}
+.photo-credit {
+    position: relative;
+    text-align: right;
 }
 .registration label { display: block }
 .registration .grad-date {
