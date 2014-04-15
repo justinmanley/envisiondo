@@ -214,6 +214,11 @@ div.body {
 }
 .more { float: right }
 .featurette.middle { margin: 0 12px }
+.featurette#upcoming-events p,
+.featurette#upcoming-events h3 {
+    text-align: left;
+    font-size: 120%;
+}
 .scrollbox {
     height: 159px;
     overflow: auto;
