@@ -57,15 +57,15 @@ $(document).ready(function() {
 function pageHeader($page) {
 	$page = strtolower($page);
 	$active = 'class="active" ';
-	$about = $inspiration = $conference = $program = $partners = $incubator = $team = $sponsors = $getInvolved= $blog = $internships = NULL;
+	$about = $inspiration = $conference = $initiatives = $partners = $incubator = $team = $sponsors = $getInvolved= $blog = $internships = NULL;
 	$wrapper = "<div class=\"wrapper\"><div class=\"header\">";
 	$wrapperClose = NUll;
 	switch ($page) {
 	    case "about":
 	        $about = $active;
 	        break;
-	    case "program":
-	        $program = $active;
+	    case "initiatives":
+	        $initiatives = $active;
 	        break;
 	    case "conference":
 	        $conference = $active;
@@ -101,11 +101,10 @@ function pageHeader($page) {
 	<div class="navigation">
 		<ul class="tabs">
 			<li '.$about.'id="about"><a href="../about">About</a></li>
-			<li '.$program.'id="program"><a href="../program">Our Program</a></li>
+			<li '.$initiatives.'id="initiatives"><a href="../initiatives">Initiatives</a></li>
 			<li '.$partners.'id="partners"><a href="../partners">Partners</a></li>
 			<li '.$team.'id="team"><a href="../team">Team</a></li>
 			<li '.$getInvolved.'id="get-involved"><a href="../get-involved">Get Involved</a></li>
-			<li '.$internships.'id="internships"><a href="/internships">Internships</a></li>
 <!--			<li '.$blog.'id="envision-bytes"><a href="../blog">Envision Bytes</a></li> -->
 		</ul>
 	</div>'.$wrapperClose;
@@ -157,12 +156,11 @@ function pageFooter($page) {
 		<div class="sitemap">
 			<ul>
 				<li '.$about.'id="about"><a href="/about">About</a></li>
-				<li '.$program.'id="program"><a href="/program">Our Program</a></li>
+				<li '.$initiatives.'id="initiatives"><a href="/initiatives">Initiatives</a></li>
 				<li '.$partners.'id="partners"><a href="/partners">Partners</a></li>
 				<li '.$team.'id="team"><a href="/team">Team</a></li>
 				<li '.$previous.'id="previous-team"><a href="/previous-team">Previous Team</a></li>
 				<li '.$getInvolved.'id="get-involved"><a href="/get-involved">Get Involved</a></li>
-				<li '.$internships.'id="internships"><a href="/internships">Internships</a></li>
 				<!-- <li '.$blog.'id="envision-bytes"><a href="/blog">Envision Bytes</a></li> -->
 			</ul>
 		</div>

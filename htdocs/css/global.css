@@ -135,6 +135,17 @@ div.body {
     width: 45%;
     float: left;
 }
+.page .initiatives .main-content {
+    width: 65%;
+}
+.page .initiatives .main-content ul li {
+    list-style-type: none;
+    font-size: 170%;
+}
+.page .initiatives .main-content ul li.speaker {
+    font-size: 125%;
+    line-height: 20pt;
+}
 .page #sidebar-picture img {
     width: 45%;
     float: left;
@@ -214,8 +225,7 @@ div.body {
 }
 .more { float: right }
 .featurette.middle { margin: 0 12px }
-.featurette#upcoming-events p,
-.featurette#upcoming-events h3 {
+.featurette#upcoming-events p {
     text-align: left;
     font-size: 120%;
 }
