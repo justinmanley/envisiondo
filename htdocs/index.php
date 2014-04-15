@@ -43,7 +43,7 @@ echo pageHeader($page); ?>
 		<div class="featurette" id="upcoming-events">
 			<h3>Upcoming events</h3>
 			<p>
-				<strong>Saturday, April 31</strong>
+				<strong>Saturday, May 31</strong>
 				<br />
 				Conference: The Business of Style
 			</p>
