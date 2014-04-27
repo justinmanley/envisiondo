@@ -29,6 +29,23 @@ $js = '	<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script
 <div class="coda-slider-wrapper">
 	<div class="coda-slider preload" id="coda-slider-1">
 
+	<div class="panel" id="ellie">
+		<div class="panel-wrapper">
+			<img class="portrait" alt="Ellie Su" src="../images/portraits/ellie.jpg"/>		
+			<h2 class="name">Ellie Su</h2>
+			<h3 class="title">President</h3>
+			<p>
+				Ellie is a fourth-year in the college studying Economics. 
+				She first became interested in EnvisionDo during her second year, when she attended a Lightbank site visit organized by EnvisionDo. 
+				She interned with an e-commerce start-up that subsequent summer and was incredibly inspired by the drive and passion of the founders. 
+			</p>
+			<p>
+				On the EnvisionDo board, Ellie helped organize the Chicago GastroConference (spring 2013) and spearheaded an event which brought Reddit co-founder Alexis Ohanian to campus.
+				In her spare time, she could be found exploring Chicago, trying out interesting food joints, or just relaxing while humming songs under her breath.				
+			</p>
+		</div>
+	</div>
+
 	<div class="panel" id="megan">
 		<div class="panel-wrapper">
 			<img class="portrait" alt="Megan Matte" src="../images/portraits/megan.jpg"/>		
@@ -62,6 +79,20 @@ $js = '	<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script
 		</div><!-- .panel-wrapper -->
 	</div><!-- .panel -->	
 
+<!-- 	<div class="panel" id="nick-von-horn">
+		<div class="panel-wrapper">
+			<img class="portrait" alt="Nicholas von Horn" src="../images/portraits/nickVH.jpg"/>		
+			<h2 class="name">Nicholas von Horn</h2>
+			<h3 class="title"></h3>
+			<p>
+				Nicholas is a second-year in the college double-majoring in Law, Letters and Society and French. 
+				He first heard of EnvisionDo while attending the Stanford Wallet Project workshop and joined the EnvisionDo board in the spring of 2013. 
+				Nicholas hopes to focus on new trends in the business world and is excited for the events planned in this upcoming year. 
+				Nicholas hopes to combine his interests in both law and business to eventually work in Intellectual Property law. Nicholas is also a member of the University’s careers in business program as well as rush chair, in charge of recruitment, for Psi Upsilon fraternity.
+			</p>
+		</div>
+	</div>	 -->
+
 	</div><!-- .coda-slider -->
 </div><!-- .coda-slider-wrapper -->
 
@@ -69,7 +100,7 @@ $js = '	<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script
 		</div>
 </div>
 
-<?
+<?php
 
 echo pageFooter($page);
 
